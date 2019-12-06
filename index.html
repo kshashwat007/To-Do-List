@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="intro">
+          <h1>To Do's</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="helpText">
+        <p id="first">Enter text in the input field</p>
+        <p id="second">Click items to mark it as complete</p>
+        <p id="third">Click on "X" to remove the items from the list</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-input">
+        <input
+          id="userInput"
+          type="text"
+          placeholder="New Item.."
+          maxlength="27"
+        />
+        <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+      </div>
+    </div>
+
+    <!-- Empty List -->
+
+    <div class="row">
+      <div class="listItems col-12">
+        <ul class="col-12 offset-0 col-sm-8 offset-sm-2"></ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
